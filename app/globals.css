@@ -26,6 +26,11 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+/* Appliquer la couleur de fond verte à tout le contenu */
+html, body, #__next {
+  background-color: #065f46; /* bg-green-900 */
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
